@@ -1,18 +1,62 @@
 body {
     margin: 0;
+    background-color: #2e9da7;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
 }
 
 header {
-    color: white;
-    background-color: #1d1d46;
+    background-color: #006771;
     padding: 20px;
     text-align: right;
+    border-bottom: 10px solid #00525d;
 }
 
 header a {
-    font-family: sans-serif;
     color: white;
-    letter-spacing: 2px;
     text-decoration: none;
     margin: 10px;
+}
+
+form {
+    text-align: center;
+    margin: 25px;
+    text-shadow: 1px 1px #00464f;
+}
+
+form h1 {
+    font-size: 40px;
+    text-shadow: 3px 2px #004651;
+}
+
+form input {
+    margin: 10px;
+    background-color: #70d6db;
+    color: #499c9e;
+    border: none;
+    padding: 6px;
+}
+
+form textarea {
+    font-family: sans-serif;
+    margin: 10px;
+    background-color: #70d6db;
+    color: #499c9e;
+    border: none;
+    padding: 6px;
+}
+
+form button {
+    background-color: #006771;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+
+form button:hover {
+    background-color: #004248;
 }
