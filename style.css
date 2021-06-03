@@ -1,16 +1,16 @@
 body {
     margin: 0;
-    background-color: #2e9da7;
+    background-color: #368D9C;
     color: white;
     font-family: sans-serif;
     letter-spacing: 2px;
 }
 
 header {
-    background-color: #006771;
+    background-color: #ff622e;
     padding: 20px;
     text-align: right;
-    border-bottom: 10px solid #00525d;
+    border-bottom: 10px solid #9c461e;
 }
 
 header a {
@@ -58,5 +58,12 @@ form button {
 }
 
 form button:hover {
-    background-color: #004248;
+    background-color: #ff622e;
+}
+
+footer {
+    background-color: #006771;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 20px solid #00525d;
 }
