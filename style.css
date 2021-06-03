@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: #1d1d46;
+    padding: 20px;
+    text-align: right;
+}
+
+header a {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin: 10px;
+}
